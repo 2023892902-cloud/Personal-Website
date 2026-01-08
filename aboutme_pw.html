@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Me</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css.css">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+	<style>
+		body
+		{
+			background-image: url(gambar/back2.jpg);
+			background-size: cover;
+			width: 100%;
+			height: 100vh;
+		}
+
+	</style>
+
+</head>
+<body>
+
+
+	<div class="topnav">
+		<div>
+			<h2>SARYE</h2>
+		</div>
+		<div class="social-links">
+			<a href="https://www.facebook.com/share/1JjSek1FHx/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+			<a href="https://www.instagram.com/ssaryye?igsh=MWRrdGdtdnNndDgzbw%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="https://x.com/nsyam05?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.tiktok.com/@saarrryyyyeeeee?_r=1&_t=ZS-92sqWl9RwQ6" target="_blank"><i class="fab fa-tiktok"></i></a>
+		</div>
+
+		<div class="menu-icon">
+			<i class="fa fa-bars"></i>
+		</div>
+
+		<ul class="navbar">
+			<li><a href="index_pw.html">Home</a></li>
+			<li><a href="aboutme_pw.html "target="_blank">About Me</a></li>
+			<li><a href="education_pw.html" target="_blank">Education</a></li>
+			<li><a href="family_pw.html" target="_blank">Family Members</a></li>
+			<li><a href="gallery_pw.html" target="_blank">Gallery</a></li>
+			<li><a href="contact_pw.html" target="_blank">Contact</a></li>
+		</ul>
+	</div>
+
+	<div class="header">
+		<div class="wrapper">
+			<div class="sidebar">
+				<div class="profile">
+						<img src="gambar/mepass.jpeg"alt=""> 
+						<h2>Nilam Sarie</h2>
+					</div>
+					<ul class="nav">
+						<li><a href="index_pw.html"target= "_blank">Home</a></li>
+						<li><a href="aboutme_pw.html" target="_blank">About Me</a></li>
+						<li><a href="education_pw.html" target="_blank">Education</a></li>
+						<li><a href="family_pw.html" target="_blank">Family Members</a></li>
+						<li><a href="gallery_pw.html" target="_blank">Gallery</a></li>
+						<li><a href="contact_pw.html" target="_blank">Contact</a></li>
+					</ul>
+					<div class="social">
+						<a href="https://www.facebook.com/share/1JjSek1FHx/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+			        	<a href="https://www.instagram.com/ssaryye?igsh=MWRrdGdtdnNndDgzbw%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+			        	<a href="https://x.com/nsyam05?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+			        	<a href="https://www.tiktok.com/@saarrryyyyeeeee?_r=1&_t=ZS-92sqWl9RwQ6" target="_blank"><i class="fab fa-tiktok"></i></a>
+					</div>
+			</div>
+			<div class="hero-content">
+				<h1>Biographical Data</h1>
+				<table style="width: 100% ">
+				<tr>
+					<th>Name</th>
+					<th>Nur Nilam Sarie Binti Zainal</th>
+				</tr>
+				<tr>
+					<th>Date of Birth</th>
+					<th>11/10/2005</th>
+				</tr>
+				<tr>
+					<th>Place of Birth</th>
+					<th>Hospital Tengku Ampuan Afzan (HTAA)</th>
+				</tr>
+				<tr>
+					<th>Status</th>
+					<th>Student</th>
+				</tr>
+					<th>Course</th>
+					<th>Information Management</th>
+				</tr>
+				<tr>
+					<th>Institution</th>
+					<th>Universiti Teknologi MARA (UiTM)</th>
+				</tr>	
+			</div>
+
+	<script>
+		let menuIcon=document.querySelector(".menu-icon");
+		let navbar=document.querySelector(".navbar");
+		let icon=document.querySelector(".menu-icon i");
+
+		menuIcon.addEventListener("click",function(){
+
+			navbar.classList.toggle("open");
+
+			if (icon.classList.contains("fa-bars"))
+			{
+				icon.classList.remove("fa-bars");
+				icon.classList.add("fa-xmark")
+			}
+			else{
+				icon.classList.remove("fa-xmark");
+				icon.classList.add("fa-bars")
+			}
+		})
+	</script>		
+</body>
+</html>

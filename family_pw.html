@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Family</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css.css">
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+	<style>
+		body
+		{
+			background-image: url(gambar/back2.jpg);
+			background-size: cover;
+			width: 100%;
+			height: 100vh;
+		}
+
+	</style>
+
+</head>
+<body>
+
+
+	<div class="topnav">
+		<div>
+			<h2>SARYE</h2>
+		</div>
+		<div class="social-links">
+			<a href="https://www.facebook.com/share/1JjSek1FHx/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+			<a href="https://www.instagram.com/ssaryye?igsh=MWRrdGdtdnNndDgzbw%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="https://x.com/nsyam05?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.tiktok.com/@saarrryyyyeeeee?_r=1&_t=ZS-92sqWl9RwQ6" target="_blank"><i class="fab fa-tiktok"></i></a>
+		</div>
+
+		<div class="menu-icon">
+			<i class="fa fa-bars"></i>
+		</div>
+
+		<ul class="navbar">
+			<li><a href="index_pw.html">Home</a></li>
+			<li><a href="aboutme_pw.html "target="_blank">About Me</a></li>
+			<li><a href="education_pw.html" target="_blank">Education</a></li>
+			<li><a href="family_pw.html" target="_blank">Family Members</a></li>
+			<li><a href="gallery_pw.html" target="_blank">Gallery</a></li>
+			<li><a href="contact_pw.html" target="_blank">Contact</a></li>
+		</ul>
+	</div>
+
+	<div class="header">
+		<div class="wrapper">
+			<div class="sidebar">
+				<div class="profile">
+						<img src="gambar/mepass.jpeg"alt=""> 
+						<h2>Nilam Sarie</h2>
+					</div>
+					<ul class="nav">
+						<li><a href="index_pw.html"target= "_blank">Home</a></li>
+						<li><a href="aboutme_pw.html" target="_blank">About Me</a></li>
+						<li><a href="education_pw.html" target="_blank">Education</a></li>
+						<li><a href="family_pw.html" target="_blank">Family Members</a></li>
+						<li><a href="gallery_pw.html" target="_blank">Gallery</a></li>
+						<li><a href="contact_pw.html" target="_blank">Contact</a></li>
+					</ul>
+					<div class="social">
+						<a href="https://www.facebook.com/share/1JjSek1FHx/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook"></i></a>
+			        	<a href="https://www.instagram.com/ssaryye?igsh=MWRrdGdtdnNndDgzbw%3D%3D&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+			        	<a href="https://x.com/nsyam05?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+			        	<a href="https://www.tiktok.com/@saarrryyyyeeeee?_r=1&_t=ZS-92sqWl9RwQ6" target="_blank"><i class="fab fa-tiktok"></i></a>
+					</div>
+			</div>
+			<div class="hero-content">
+				<h1>Family Members</h1>
+				
+				<h3>Abah & Mak & Adik</h3>
+	<p class="uni-desc"><img src="gambar/maabahadik.jpeg" alt="image of my parents" style="height: 220px; width: 200px; float: right;">
+	This is my parents and my little sisterc(the youngest). My parents have always been my guiding light. Their love, support, and sacrifices have shaped me into the person I am today. Mak and Abah, you have shown me the true meaning of patience, kindness, and unconditional love. I am forever grateful for your guidance, encouragement, and the countless ways you have cared for me. Watching you embrace life with warmth and strength inspires me every single day, and seeing you with your first grandchild fills my heart with joy. Thank you for being my role models, my safe haven, and my greatest blessings.</p>
+
+			<h3>Acik & Along & Angah</h3>
+	<p class="uni-desc"><img src="gambar/siblaki.jpeg" alt="image of my sublings" style="height: 200px; width: 250px; float: right;">
+	This is my older brother, along with my siblings. From left to right: Acik (the youngest), Along (the eldest), and Angah (the middle).In August 2024, we lost our beloved Acik to leukemia. His laughter, kindness, and the joy he brought to everyone around him will always be remembered. Though he is no longer with us, his memory lives on in our hearts, and the love he shared continues to inspire and comfort us. My family and I will always carry him in our thoughts, cherishing the moments we spent together and the bond we shared as siblings. Acik, you may be gone, but you will never be forgotten.</p>
+
+			</div>
+
+	<script>
+		let menuIcon=document.querySelector(".menu-icon");
+		let navbar=document.querySelector(".navbar");
+		let icon=document.querySelector(".menu-icon i");
+
+		menuIcon.addEventListener("click",function(){
+
+			navbar.classList.toggle("open");
+
+			if (icon.classList.contains("fa-bars"))
+			{
+				icon.classList.remove("fa-bars");
+				icon.classList.add("fa-xmark")
+			}
+			else{
+				icon.classList.remove("fa-xmark");
+				icon.classList.add("fa-bars")
+			}
+		})
+	</script>		
+</body>
+</html>
